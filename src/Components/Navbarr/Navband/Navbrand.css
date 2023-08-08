@@ -1,0 +1,16 @@
+.navbrand {
+    background-color: black;
+    padding: 1rem;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbrand a {
+    margin-left: 10px;
+    color: #ffff;
+    font-weight: 800;
+}

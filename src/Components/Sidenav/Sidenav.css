@@ -1,0 +1,17 @@
+
+nav a{
+    text-decoration: none;
+}
+nav ul{
+    padding: 0;
+}
+nav li{
+    padding-bottom: 0.5rem;
+    list-style: none;
+    color: rgb(43, 42, 42);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+nav li:hover{
+    color:#DB4444;
+}
