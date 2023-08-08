@@ -47,7 +47,9 @@
     font-size: 1rem;
     margin-right: 1.5rem;
 }
-
+.nav__items li:hover{
+    color:#DB4444;
+}
 .nav__searchbox {
     width: 70%;
     background: #f3f2f2;

@@ -1,13 +1,13 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
+import './Button.css'
 
 const CustomButton = (props) => {
   return (
-    <div>
-      <Button variant="danger" size="lg">
-       {props.label}
-      </Button>
-    </div>
+    <>
+    <button>
+      {props.label}
+    </button>
+    </>
   )
 }
 

@@ -5,6 +5,7 @@ import Navbarr from '../../Components/Navbarr/Navbarr'
 import Sidenav from '../../Components/Sidenav/Sidenav'
 import Carousel from '../../Components/Carousel/Carousel'
 import FlashSale from '../../FlashSale/FlashSale'
+import Categories from '../../Categories/Categories'
 const Home = () => {
   return (
 
@@ -24,6 +25,10 @@ const Home = () => {
         {/* /..................FLASH SALE.........................................../ */}
         <section className="flashSale__section">
          <FlashSale/>
+        </section>
+
+        <section className="categories__section">
+          <Categories/>
         </section>
 
       </div>

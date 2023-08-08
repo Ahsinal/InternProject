@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from '../Components/Card/Card'
-import './FlashCards.css'
+// import './FlashCards.css'
 const FlashCards = () => {
     const FlashCardDatas=[
         {

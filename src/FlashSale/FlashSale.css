@@ -1,19 +1,4 @@
-.section__header{
-    display: flex;
-    align-items: center;
-}
-.block{
-    background-color: rgb(201, 4, 4);
-    width: 1.15rem;
-    height: 2.5rem;
-    border-radius: 4px;
-    margin-right: 0.65rem;
-}
-.section__header h5{
-    font-size: 0.85rem;
-    color:rgb(201, 4, 4);
-    margin: 0;
-}
+
 .section__content{
     display: flex;
     align-items: center;
