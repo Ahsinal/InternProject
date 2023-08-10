@@ -1,6 +1,5 @@
 import React from 'react'
 import './SignUp.css'
-import CustomButton from '../../Components/Buttons/CustomButton'
 import { Link } from 'react-router-dom'
 const SignUp = () => {
   return (

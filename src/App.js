@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import Navbarr from './Components/Navbarr/Navbarr';
 import Contact from './Pages/Contact/Contact'
 import SignUp from './Pages/SignUp/SignUp';
+import Login from './Pages/Login/Login';
 function App() {
   return (
  <>
@@ -17,6 +18,7 @@ function App() {
     <Route path="/about" element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/signup' element={<SignUp/>}/>
+    <Route path='/login' element={<Login/>}/>
    </Routes>
    <Footer/>
  </>
