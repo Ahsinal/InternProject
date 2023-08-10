@@ -73,4 +73,5 @@
 .nav__icons {
     width: 10%;
     font-size: 1.5rem;
+    cursor: pointer;
 }

@@ -29,7 +29,8 @@ const Carasoule = () => {
             cardTitle: "HAVIT HV-G92",
             TotalReview: '4',
             PrevPrice: '$350',
-            NewPrice: "290"
+            NewPrice: "290",
+            Discount:"-40%"
         },
         {
             url: "https://img.freepik.com/premium-photo/gaming-keyboard-with-cacklight_666369-47.jpg?size=626&ext=jpg",
@@ -37,7 +38,8 @@ const Carasoule = () => {
             cardTitle: "Keyboard",
             TotalReview: '4',
             PrevPrice: '$300',
-            NewPrice: "200"
+            NewPrice: "200",
+            Discount:"-30%"
         },
         {
             url: "https://img.freepik.com/free-photo/purple-computer-mouse_1260-12.jpg?size=626&ext=jpg",
@@ -45,7 +47,8 @@ const Carasoule = () => {
             cardTitle: "Gaming Mouse",
             TotalReview: '4',
             PrevPrice: '$200',
-            NewPrice: "100"
+            NewPrice: "100",
+            Discount:"-10%"
         },
         {
             url: "https://img.freepik.com/free-photo/still-life-seat-gamers_23-2149746561.jpg?size=626&ext=jpg",
@@ -53,7 +56,8 @@ const Carasoule = () => {
             cardTitle: "Gaming Chair",
             TotalReview: '4',
             PrevPrice: '$1300',
-            NewPrice: "1200"
+            NewPrice: "1200",
+            Discount:"-12%"
         },
         {
             url: "https://img.freepik.com/free-photo/still-life-seat-gamers_23-2149746561.jpg?size=626&ext=jpg",
@@ -61,7 +65,8 @@ const Carasoule = () => {
             cardTitle: "Gaming Chair",
             TotalReview: '4',
             PrevPrice: '$1300',
-            NewPrice: "1200"
+            NewPrice: "1200",
+            Discount:"-4%"
         },
         {
             url: "https://img.freepik.com/free-photo/still-life-seat-gamers_23-2149746561.jpg?size=626&ext=jpg",
@@ -69,7 +74,8 @@ const Carasoule = () => {
             cardTitle: "Gaming Chair",
             TotalReview: '4',
             PrevPrice: '$1300',
-            NewPrice: "1200"
+            NewPrice: "1200",
+            Discount:"-13%"
         },
         {
             url: "https://img.freepik.com/free-photo/still-life-seat-gamers_23-2149746561.jpg?size=626&ext=jpg",
@@ -77,7 +83,8 @@ const Carasoule = () => {
             cardTitle: "Gaming Chair",
             TotalReview: '4',
             PrevPrice: '$1300',
-            NewPrice: "1200"
+            NewPrice: "1200",
+            Discount:"-15%"
         }
     ];
     return (
@@ -103,6 +110,7 @@ const Carasoule = () => {
                             TotalReview={cardData.TotalReview}
                             PrevPrice={cardData.PrevPrice}
                             NewPrice={cardData.PrevPrice}
+                            Discount={cardData.Discount}
                         />
                     ))
                 }

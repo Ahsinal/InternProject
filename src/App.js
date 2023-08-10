@@ -8,6 +8,7 @@ import Navbarr from './Components/Navbarr/Navbarr';
 import Contact from './Pages/Contact/Contact'
 import SignUp from './Pages/SignUp/SignUp';
 import Login from './Pages/Login/Login';
+import WishList from './Pages/WishList/WishList';
 function App() {
   return (
  <>
@@ -19,6 +20,7 @@ function App() {
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/signup' element={<SignUp/>}/>
     <Route path='/login' element={<Login/>}/>
+    <Route path='/wishlist' element={<WishList/>}/>
    </Routes>
    <Footer/>
  </>

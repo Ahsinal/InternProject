@@ -2,29 +2,11 @@
   width: 85%;
   margin: 0 auto;
 }
-.custom-arrow {
-  font-size: 2rem;
-  margin-left: 1rem;
-  color: rgb(128, 127, 127);
-  cursor: pointer;
-  opacity: 0.75;
-}
-.section_header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.section_header h3 {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 3rem;
-}
+
 /* #######################MAIN CSS################################################### */
 .main__content {
   display: flex;
   height: auto;
-  min-height: 400px;
   box-sizing: border-box;
 }
 .side__nav {

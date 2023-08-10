@@ -59,11 +59,13 @@ small{
     height: 30px;
     color: #fff;
     padding: 1rem;
+    
 }
 .input__box__icon{
     color: #fff;
     font-size:1rem;
     margin: 0 auto;
+    cursor: pointer;
 }
 .footer__logo{
     height: 60px;
