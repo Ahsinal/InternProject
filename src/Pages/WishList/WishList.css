@@ -2,3 +2,43 @@
     width: 85%;
   margin: 0 auto;
 }
+.wishlist__section{
+    margin: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wishlist__section h5{
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.wishlist__button button{
+    outline:none;
+    border: none;
+    border:1px solid rgb(119, 117, 117);
+    border-radius: 3px;
+    padding: .5rem 2rem;
+    background-color: white;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.wishlist__button button:hover{
+    background-color: rgb(216, 31, 31);
+    color: #fff;
+    border: none;
+}
+.wishlist__cards{
+    width: 100%;
+    margin: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wishlist__cards .card{
+    margin-bottom: 2rem; /* Add margin-bottom to all cards */
+}
+.just__for__you__section{
+    margin: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

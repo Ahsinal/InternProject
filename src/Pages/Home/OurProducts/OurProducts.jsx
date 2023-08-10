@@ -86,11 +86,13 @@ const OurProducts = () => {
             TotalReview={cardData.TotalReview}
             PrevPrice={cardData.PrevPrice}
             NewPrice={cardData.NewPrice}
+            wishlist__action={true}
+            view__action={true}
           />
         ))}
       </div>
       <div className="section__footer">
-        <CustomButton label="View All Products"/>
+        <CustomButton label="View All Products" />
       </div>
     </>
   );

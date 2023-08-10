@@ -55,6 +55,8 @@ const BestSelling = () => {
               TotalReview={cardData.TotalReview}
               PrevPrice={cardData.PrevPrice}
               NewPrice={cardData.PrevPrice}
+              wishlist__action={true}
+              view__action={true}
               />
             ))
           }

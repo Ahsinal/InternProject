@@ -16,6 +16,15 @@
     color: #fff;
     font-size: 0.75rem;
 }
+.new{
+    position: absolute;
+    background-color: rgb(2, 88, 2);
+    width:fit-content;
+    border-radius: 4px;
+    padding: 0.15rem 0.5rem;
+    color:#fff;
+    font-size: 0.75rem;
+}
 .icons{
     position: absolute;
     right: 0;

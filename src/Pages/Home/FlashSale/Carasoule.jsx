@@ -111,6 +111,8 @@ const Carasoule = () => {
                             PrevPrice={cardData.PrevPrice}
                             NewPrice={cardData.PrevPrice}
                             Discount={cardData.Discount}
+                            wishlist__action={true}
+                            view__action={true}
                         />
                     ))
                 }
