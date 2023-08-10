@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './FlashSale.css'
-import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs'
-import CustomButton from '../Components/Buttons/CustomButton'
-import FlashCards from './FlashCards'
+// import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs'
+import CustomButton from '../../../Components/Buttons/CustomButton'
 import Carasoule from './Carasoule'
-import HeadingIntro from '../Components/Headings/HeadingIntro'
 const FlashSale = () => {
     const[time,setTime]=useState({days:2,hours:23,minutes:10,seconds:22});
 
@@ -26,7 +24,10 @@ const FlashSale = () => {
     },[]);
     return (
         <>
-            <HeadingIntro label="Today's"/>
+            <div className="section__header">
+                <div className="block"></div>
+                <h5>Today's</h5>
+            </div>
 
             <div className="section__content">
                 <div className="section__content__time">
@@ -58,7 +59,7 @@ const FlashSale = () => {
             </div>
             <div className="flash__cards">
             {/* <FlashCards/> */}
-            <Carasoule/>
+           <Carasoule/>
             </div>
 
             <div className="section__footer">

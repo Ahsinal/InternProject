@@ -1,39 +1,58 @@
-.home__page{
-    width: 85%;
-    margin: 0 auto;
+.home__page {
+  width: 85%;
+  margin: 0 auto;
+}
+.custom-arrow {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: rgb(128, 127, 127);
+  cursor: pointer;
+  opacity: 0.75;
+}
+.section_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section_header h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem;
 }
 /* #######################MAIN CSS################################################### */
-.main__content{
-    display: flex;
-    height: auto;
-    min-height: 400px;
-    box-sizing: border-box;
+.main__content {
+  display: flex;
+  height: auto;
+  min-height: 400px;
+  box-sizing: border-box;
 }
-.side__nav{
-    width: 20%;
-    border-right: 1px solid rgb(222, 222, 222);
-    padding-top: 2rem;
-    /* background-color: teal; */
+.side__nav {
+  width: 20%;
+  border-right: 1px solid rgb(222, 222, 222);
+  padding-top: 2rem;
+  /* background-color: teal; */
 }
-.main__carasoule{
-    width: 80%;
-    padding-top: 2rem;
-   padding-left: 2rem;
+.main__carasoule {
+  width: 80%;
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
 /* ########################FLASH SALE CSS################################################## */
-.flashSale__section{
-    margin:5rem 0;   
+.flashSale__section {
+  margin: 5rem 0;
 }
-.categories__section{
-    background-color: red;
+/* ########################Banner Section################################################## */
+.banner__section {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
-/* ########################################################################## */
 
-
-
-/* ########################################################################## */
-
-
+/* ######################footer#################################################### */
+.footer__section{
+  width: 100%;
+  background-color: black;
+}
 /* ########################################################################## */
 
 /* ########################################################################## */

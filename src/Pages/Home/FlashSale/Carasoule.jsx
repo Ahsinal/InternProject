@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Card from '../Components/Card/Card';
+import Card from '../../../Components/Card/Card';
 import './Carasoule.css'
 const Carasoule = () => {
     const responsive = {

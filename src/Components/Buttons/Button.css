@@ -1,4 +1,4 @@
-button{
+.button__red{
     outline: none;
     border: none;
     padding: 0.55rem 1.75rem;
@@ -6,4 +6,7 @@ button{
     border-radius: 4px;
     color: #fff;
     background-color: #DB4444;;
+}
+.button__red:hover{
+    background-color: #cf0c0c;
 }

@@ -1,0 +1,7 @@
+.best__selling__card__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+}

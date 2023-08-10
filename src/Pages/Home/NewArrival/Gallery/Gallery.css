@@ -1,0 +1,79 @@
+.gallery__section {
+  display: flex;
+  gap: 20px;
+  margin: 1rem 0rem 3rem 0;
+}
+.half__div {
+  width: 50%;
+  border-radius: 4px;
+  height: 400px;
+  position: relative;
+}
+.first__div {
+  background-image: url("https://img.freepik.com/premium-photo/top-view-black-joystick-black-wooden-floor_41050-4281.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  /* opacity: 0.85; */
+  height: auto;
+}
+.text__section{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1rem 2rem ;
+    color: #fff;
+}
+.text__section p{
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+.text__section a{
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.second__div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.div__flat {
+  height: 50%;
+  width: 100%;
+}
+.div__upper{
+    background-image: url("https://img.freepik.com/free-photo/elegant-carnival-mask-with-jewelry_23-2148401873.jpg?size=626&ext=jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    /* opacity: 0.85; */
+    /* height: 100%; */
+    position: relative;
+}
+.div__lower {
+  display: flex;
+  gap: 20px;
+}
+.small__div {
+  width: 50%;
+  background-color: green;
+}
+.small__div__a{
+  background-image: url('https://img.freepik.com/premium-photo/luxury-bootle-with-perfume-black-background_721289-57.jpg?size=626&ext=jpg');
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.small__div__b{
+  background-image: url('https://img.freepik.com/free-photo/different-foundation-arrangement_23-2148978148.jpg?size=626&ext=jpg');
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+}

@@ -2,16 +2,18 @@ import React from 'react'
 import './Home.css'
 import Navbrand from '../../Components/Navbarr/Navband/Navbrand'
 import Navbarr from '../../Components/Navbarr/Navbarr'
-import Sidenav from '../../Components/Sidenav/Sidenav'
-import Carousel from '../../Components/Carousel/Carousel'
-import FlashSale from '../../FlashSale/FlashSale'
-import Categories from '../../Categories/Categories'
+import Carousel from './Carousel/Carousel'
+import FlashSale from './FlashSale/FlashSale'
+import Categories from './Categories/Categories'
+import BestSelling from './BestSelling/BestSelling'
+import Sidenav from './Sidenav/Sidenav'
+import Banner from './Banner/Banner'
+import OurProducts from './OurProducts/OurProducts'
+import NewArrival from './NewArrival/NewArrival'
 const Home = () => {
   return (
 
     <>
-      <Navbrand />
-      <Navbarr />
       <div className="home__page">
         <div className="main__content">
           <div className="side__nav">
@@ -31,6 +33,21 @@ const Home = () => {
           <Categories/>
         </section>
 
+        <section className="bestSelling__section">
+          <BestSelling/>
+        </section>
+
+        <section className="banner__section">
+          <Banner/>
+        </section>
+
+        <section className="Products_section">
+          <OurProducts/>
+        </section>
+
+        <section className="new__arrival">
+          <NewArrival/>
+        </section>
       </div>
     </>
   )

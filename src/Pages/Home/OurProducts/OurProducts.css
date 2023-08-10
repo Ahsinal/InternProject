@@ -1,0 +1,16 @@
+.our__products__Card__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+.our__products__Card__container .card {
+    margin-bottom: 2rem; /* Add margin-bottom to all cards */
+}
+
+/* Remove margin-bottom from the last card in each row */
+.our__products__Card__container .card:nth-child(4n) {
+    margin-bottom: 0;
+}

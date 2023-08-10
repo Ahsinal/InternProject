@@ -1,0 +1,40 @@
+.categories__card__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin: rem auto; */
+}
+.categories__card{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    border:1px solid rgb(213, 211, 213);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.categories__card:hover {
+    background-color: #e64949;
+    color: white;
+}
+.category__icon{
+    font-size:2.25rem;
+    margin-bottom: 1rem;
+    color: inherit;/* Inherit the color from parent, or set a specific color here */
+}
+.categories__card h5{
+    padding: 0;
+    color: rgb(88, 69, 69);
+    font-weight: normal;
+    transition: color 0.3s;
+}
+
+.categories__card:hover .category__icon {
+    color: #e9e9e9;
+}
+.categories__card:hover h5{
+    color: #e9e9e9;
+}
