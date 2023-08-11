@@ -12,9 +12,9 @@ const Navbarr = () => {
         <div className="nav__items  ">
           <ul>
             <Link to='/'><li >Home</li></Link>
-            <Link to='/'><li>Contact</li></Link>
-            <Link to='/'><li>About</li></Link>
-            <Link to='/'><li>Sign Up</li></Link>
+            <Link to='/contact'><li>Contact</li></Link>
+            <Link to='/about'><li>About</li></Link>
+            <Link to='/signup'><li>Sign Up</li></Link>
           </ul>
         </div>
         <div className="nav__elements">
@@ -23,10 +23,10 @@ const Navbarr = () => {
             <span><BiSearch /></span>
           </div>
           <div className="nav__icons">
-            <AiOutlineHeart/>
+            <Link to='/wishlist'><AiOutlineHeart/></Link>
           </div>
           <div className="nav__icons">
-            <AiOutlineShoppingCart/>
+            <Link to='/cart'><AiOutlineShoppingCart/></Link>
           </div>
         </div>
       </div>

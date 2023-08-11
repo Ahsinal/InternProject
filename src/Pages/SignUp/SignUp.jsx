@@ -25,7 +25,7 @@ const SignUp = () => {
             <button>Create Account</button>
         </div>
         <h6 className='text-center py-4'> Already have account?
-        <Link>Login</Link>
+        <Link to='/login'>Login</Link>
         </h6>
     </div>
    </section>
