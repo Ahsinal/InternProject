@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import Table from './Table/Table'
 import { CarouselItem } from 'react-bootstrap'
 const Cart = () => {
+    //Breadcrumb path defining
     const paths=[
         {name:'Cart',link:'/cart'}
     ]
