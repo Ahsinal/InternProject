@@ -1,0 +1,60 @@
+.cart__section{
+    width: 85%;
+    margin: 3rem auto;
+    
+}
+.tabl__data__section{
+    background-color: tomato;
+    height: 200px;
+    margin: 4rem 0;
+}
+.table__footer__buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.cart__footer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 4rem 0;
+}
+.cart__footer_division{
+    width: 35%;
+}
+.coupon__section{
+    display: flex;
+    justify-content: space-between;
+    max-height: 40px;
+}
+.coupon__section input{
+    width: 58%;
+}
+.cart__footer button{
+    font-size: 0.85rem;
+}
+.cart__totals{
+    border: 1.5px solid rgb(59, 57, 57);
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center; */
+}
+.cart__totals strong{
+    font-weight: 400;
+}
+.cart__total__rows{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+}
+.border__buttom{
+    border-bottom: 1px solid rgb(157, 154, 154);
+}
+.cart__totals button{
+    margin: 1rem auto;
+}
+    
