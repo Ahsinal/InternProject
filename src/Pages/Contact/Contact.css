@@ -1,0 +1,97 @@
+.contact__page{
+    width: 85%;
+    margin:  0 auto;
+}
+.contact__header{
+    margin: 3rem 0;
+}
+.contact__content{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 7rem;
+}
+.contact__info{
+    width: 30%;
+    height: 100%;
+    padding: 1.5rem ;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(240, 240, 240);
+    box-shadow: 2px 2px 4px rgba(222, 222, 225, 0.5);
+}
+.contact__info__col__header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.contact__info__col__header h6{
+    color: black;
+    padding: 0.25rem;
+    font-size: 0.95rem;
+}
+.contact__info__col p{
+    font-size: 0.85rem;
+    color: black;
+    margin-bottom: 0.65rem;
+}
+.contact__info__col__header__circle{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+.contact__info__col__header__circle__icon{
+    font-size: 1.25rem;
+    color: white;
+}
+hr.afterline{
+    color:rgb(73, 72, 72);
+    margin: 1.5rem 0;
+}
+
+.contact__form{
+    width: 70%;
+    height: 100%;
+    padding:2.5rem 1.5rem;
+    border:1px solid rgb(240, 240, 240);
+    box-shadow: 2px 2px 4px rgba(222, 222, 225, 0.5);
+   
+}
+.form__inputs{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.form__input__box{
+    background-color: rgb(239, 240, 241);
+    width: 33.33%;
+    border-radius: 3px;
+}
+.form__input__box input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0.35rem;
+}
+.form__input__texatarea{
+    background-color: rgb(239, 240, 241);
+    border-radius: 3px;
+    width: 100%;
+}
+.form__input__texatarea textarea{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0.35rem;
+    height: 150px;
+}
+.contact__button{
+    margin-top: 2rem;
+}
