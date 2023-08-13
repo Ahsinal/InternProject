@@ -2,6 +2,9 @@
   width: 85%;
   margin: 3rem auto;
 }
+.about__page p{
+  color: black;
+}
 .about__content {
   display: flex;
   gap: 5%;
@@ -26,16 +29,79 @@
 }
 .about__desc p {
   color: black;
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.625rem;
-  text-align: justify;
-  
+  text-align: justify; 
 }
 .about__pic img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 6px;
+}
+/* /////stats cards//////// */
+.about__stat__cards{
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+.stat__card{
+  width: 21%;
+  /* background-color: aliceblue; */
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.outer__circle{
+  margin-bottom: 1rem;
+}
+.aboutus__cards{
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about__us__peronal__card{
+  width: 25%;
+  background-color: rgb(245, 248, 250);
+  border-radius: 4px;
+}
+.card__image{
+  width: 12rem;
+  height: 12rem;
+  /* border-radius: 50%; */
+}
+.card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card__desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.card__desc h4{
+  font-size: 1.35rem;
+  margin: 0;
+  padding-top: 0.25rem;
+}
+.card__desc p{
+  margin: 0;
+  padding: 0;
+  font-size: 0.75rem;
+}
+.card__icons{
+  display: flex; 
+  gap: 0.5rem;
+  color: rgb(88, 87, 87);
+  padding: 0.25rem 0;
 }
